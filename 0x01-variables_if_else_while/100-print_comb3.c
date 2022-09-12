@@ -8,20 +8,17 @@ int main(void)
 {
 	int d, j;
 
-	for (d = 0; d <= 9; d++)
+	for (d = 0; d < 9; d++)
 	{
-		for(j = 1; j <= 9; j++);
+		for(j = d + 1; j < 10; j++);
 		{
-		if (j > d)
-		{
-			putchar(d + '0');
-			putchar(j + '0');
-			if(d != 8)
+			putchar((d % 10) + '0');
+			putchar((j % 10) + '0');
+			if(d == 8 && j == 9)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-		}
 		}
 	}
 	putchar('\n');
