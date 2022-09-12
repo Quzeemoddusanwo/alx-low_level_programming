@@ -10,16 +10,21 @@ int main(void)
 
 	for (d = 0; d < 9; d++)
 	{
-		for (j = d + 1; j < 10; j++);
+
+		for (j = d + 1; j < 10; j++)
 		{
+
 			putchar((d % 10) + '0');
 			putchar((j % 10) + '0');
+
 			if (d == 8 && j == 9)
-			{
+
+			continue;
+
 				putchar(',');
 				putchar(' ');
-			}
 		}
+
 	}
 	putchar('\n');
 	return (0);
