@@ -17,6 +17,7 @@ else
 n = n + 1;
 }
 }
+
 else if (n > 98)
 {
 while (n >= 98)
@@ -28,6 +29,7 @@ else
 n = n - 1;
 }
 }
+
 }
 
 
