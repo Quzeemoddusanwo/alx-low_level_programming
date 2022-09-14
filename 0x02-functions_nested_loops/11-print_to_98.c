@@ -1,14 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 
-
 /**
- * print_to_98 - prints to 98
- * @n: the starting point
+ * print_to_98 - Prints al natural numbers from input to 98
+ * 		in order seperated by a comes followed by a source
+ * @n: The number to begin counting at.
  */
 void print_to_98(int n)
 {
-	if (n <= 98)
+	if (n >= 98)
 	{
 		while (n > 98)
 			printf("%d, ", n--);
@@ -18,23 +17,11 @@ void print_to_98(int n)
 	else
 	{
 		while (n < 98)
-			printf("%d, "' n++);
+			printf("%d, ", n++);
 		printf("%d\n", n);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 
 
 
