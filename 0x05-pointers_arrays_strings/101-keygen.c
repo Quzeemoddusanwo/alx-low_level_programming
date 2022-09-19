@@ -3,9 +3,8 @@
 #include <time.h>
 
 /**
- * main - Generates random valid passwords for the project 101-cracker.
- *
- * Return: Always 0.
+ * main - Generates random valid passwords
+ * Return: 0 (on success).
  */
 int main(void)
 {
