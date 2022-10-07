@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#incude "main.h"
 
 void *_calloc(unsigned int nmemb, unsigned int size);
 int _strdigit(char *s);
